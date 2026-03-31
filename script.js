@@ -262,4 +262,22 @@
 
 
 
+let heading=document.getElementById("maintitle");
+console.log(heading.textContent);
 
+let paragraph=document.getElementsByClassName("para");
+console.log(paragraph[0].textContent);
+
+
+
+let card=document.querySelector(".container");
+console.log(card.textContent);
+
+
+
+let diver=document.querySelectorAll("dive");
+console.log(diver.textContent);
+
+
+document.getElementById("why").innerText="how are you";
+document.getElementById("box").innerHTML=" <strong>are you here</strong>";
