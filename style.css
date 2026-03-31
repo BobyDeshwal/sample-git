@@ -1,8 +1,20 @@
-button{
-    background-color: rgb(68, 255, 0); 
-    /* background: linear-gradient(45deg,rgb(82, 82, 248), lightblue); */
+.btn{
+    background-color: crimson;
     color: white;
-    width: 75px;
-    height: 25px;
-    border: none;
+    width: 100px;
+    height: 35px;
+    border: 1px solid white;
+}
+
+.btn2{
+    border-radius: 20px;
+}
+
+li{
+    background-color: yellowgreen;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 10px;
 }
