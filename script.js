@@ -281,3 +281,28 @@ console.log(diver.textContent);
 
 document.getElementById("why").innerText="how are you";
 document.getElementById("box").innerHTML=" <strong>are you here</strong>";
+document.getElementById("photo").textContent="you are best";
+
+document.getElementById("div1");
+document.getElementById("btn").addEventListener("click",function(){
+    alert("butten was clicked");
+});
+
+
+Element.addEventListener("click",function(event){                //problem 
+    console.log(event);                               
+});
+
+
+
+
+const button=document.getElementById("on");
+const stopbtn=document.getElementById("stop");
+
+function showmessage(){
+    alert("message shown");
+};
+button.addEventListener("click",showmessage);
+stopbtn.addEventListener("click",function(){
+    button.removeEventListener("click",showmessage);
+});
