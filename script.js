@@ -312,3 +312,16 @@ stopbtn.addEventListener("click",function(){
 
 const but=document.getElementById("on");
 const stbtn=document.getElementById("stop");
+
+let cd=document.querySelector(".container");
+console.log(card.textContent);
+
+
+
+let der=document.querySelectorAll("dive");
+console.log(diver.textContent);
+
+
+document.getElementById("why").innerText="how are you";
+document.getElementById("box").innerHTML=" <strong>are you here</strong>";
+document.getElementById("photo").textContent="you are best";
