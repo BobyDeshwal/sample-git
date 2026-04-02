@@ -306,3 +306,9 @@ button.addEventListener("click",showmessage);
 stopbtn.addEventListener("click",function(){
     button.removeEventListener("click",showmessage);
 });
+
+
+
+
+const but=document.getElementById("on");
+const stbtn=document.getElementById("stop");
