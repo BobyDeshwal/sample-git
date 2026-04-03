@@ -289,9 +289,9 @@ document.getElementById("btn").addEventListener("click",function(){
 });
 
 
-Element.addEventListener("click",function(event){                //problem 
-    console.log(event);                               
-});
+// Element.addEventListener("click",function(event){                //problem
+//     console.log(event);                               
+// });
 
 
 
@@ -307,21 +307,37 @@ stopbtn.addEventListener("click",function(){
     button.removeEventListener("click",showmessage);
 });
 
+document.getElementById("btttt").addEventListener("mouseover",function(){
+    alert(" button clicked early!");
+});
+
+document.getElementById("btt").addEventListener("mouseover",function(){
+    alert("hover on button!");
+});
+
+const hoverbox=document.getElementById("hover-box");            //colour nahi aa raha 
+hoverbox.addEventListener("mouseover",()=>{
+    hoverbox.style.backgroundColor='light blue';
+});
+hoverbox.addEventListener("mouseover",()=>{
+    hoverbox.style.backgroundColor='white';
+});
+document.getElementById("key").addEventListener("keydown",function(event){
+    alert("you pressed:" + event.key);
+});
+document.getElementById("key").addEventListener("keyup",function(event){
+    alert("you released a key:" , event.key);
+});
 
 
-
-const but=document.getElementById("on");
-const stbtn=document.getElementById("stop");
-
-let cd=document.querySelector(".container");
-console.log(card.textContent);
+const keytype=document.getElementById("key-input");
+keytype.addEventListener("keydown",(Event)=>{
+    console.log('key presed:${Event.key}');
+})
 
 
-
-let der=document.querySelectorAll("dive");
-console.log(diver.textContent);
-
-
-document.getElementById("why").innerText="how are you";
-document.getElementById("box").innerHTML=" <strong>are you here</strong>";
-document.getElementById("photo").textContent="you are best";
+const form=document.getElementById("myform");
+form.addEventListener("sumbit",function(event){
+    event.preventDefault();
+    alert("form sumbited");
+})

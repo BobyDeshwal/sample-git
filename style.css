@@ -1,9 +1,11 @@
+
 .box {
     background-color: aqua;
     color: black;
     padding:10px;
     border-color: black;
 }
+
 .btn{
     background-color: crimson;
     color: white;
@@ -23,4 +25,9 @@ li{
     justify-content: space-between;
     margin-top: 5px;
     padding: 10px;
+}
+.hover-box{
+    width:20px;
+    height:20px;
+    border:2px solid rgb(137, 28, 28);
 }
