@@ -330,6 +330,10 @@ document.getElementById("key").addEventListener("keyup",function(event){
 });
 
 
+const keytype=document.getElementById("key-input");
+keytype.addEventListener("keydown",(Event)=>{
+    console.log('key presed:${Event.key}');
+})
 
 
 const form=document.getElementById("myform");
