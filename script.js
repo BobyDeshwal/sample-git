@@ -336,8 +336,4 @@ keytype.addEventListener("keydown",(Event)=>{
 })
 
 
-const form=document.getElementById("myform");
-form.addEventListener("sumbit",function(event){
-    event.preventDefault();
-    alert("form sumbited");
-})
+
