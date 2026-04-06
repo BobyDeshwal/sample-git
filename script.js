@@ -361,3 +361,10 @@ console.log("showmessage");
 //     console.log("showmessage")
 // },2000);
 
+
+function greet(name){
+    console.log('hellow,${shara}!');
+}
+setTimeout(()=>{
+    greet("shara");
+},3000);
