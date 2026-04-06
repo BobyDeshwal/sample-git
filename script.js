@@ -368,3 +368,20 @@ function greet(name){
 setTimeout(()=>{
     greet("shara");
 },3000);
+
+
+let count = 5;
+
+console.log("Starting countdown...");
+
+const countdownInterval = setInterval(() => {
+  if (count > 0) {
+    console.log(count);
+    count--;
+  } else {
+    console.log("Blast off!");
+    // Stop the interval from running again
+    clearInterval(countdownInterval);
+  }
+}, 1000); // Run every 1 second
+
