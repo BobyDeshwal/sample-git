@@ -317,11 +317,9 @@ document.getElementById("btt").addEventListener("mouseover",function(){
 
 const hoverbox=document.getElementById("hover-box");            //colour nahi aa raha 
 hoverbox.addEventListener("mouseover",()=>{
-    hoverbox.style.backgroundColor='light blue';
+    hoverbox.style.backgroundColor='red';
 });
-hoverbox.addEventListener("mouseover",()=>{
-    hoverbox.style.backgroundColor='white';
-});
+
 document.getElementById("key").addEventListener("keydown",function(event){
     alert("you pressed:" + event.key);
 });
@@ -347,3 +345,7 @@ const keyte=document.getElementById("key-input");
 keytype.addEventListener("keydown",(Event)=>{
     console.log('key presed:${Event.key}');
 })
+
+
+
+console.log("firstmessage");
