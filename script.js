@@ -353,3 +353,11 @@ setTimeout(()=>{
     console.log("secondmessage(after 2 sec)");
 },2000);
 console.log("thirdmessage")
+
+
+
+console.log("showmessage");
+// setInterval(() => {
+//     console.log("showmessage")
+// },2000);
+
