@@ -352,3 +352,4 @@ console.log("firstmessage");
 setTimeout(()=>{
     console.log("secondmessage(after 2 sec)");
 },2000);
+console.log("thirdmessage")
