@@ -261,7 +261,6 @@
 
 
 
-
 let heading=document.getElementById("maintitle");
 console.log(heading.textContent);
 
@@ -334,11 +333,11 @@ keytype.addEventListener("keydown",(Event)=>{
 })
 
 
-const form=document.getElementById("myform");
-form.addEventListener("sumbit",function(event){
-    event.preventDefault();
-    alert("form sumbited");
-})
+// const form=document.getElementById("myform");
+// form.addEventListener("sumbit",function(event){
+//     event.preventDefault();
+//     alert("form sumbited");
+// })
 
 
 // const keyte=document.getElementById("key-input");
