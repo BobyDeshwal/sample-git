@@ -258,11 +258,11 @@
 // }
 
 
-alert("hellow lord");
-alert("worning to do !");
-alert("lets play");
-alert("play safe!");
-alert("hi hi hi by by by")
+// alert("hellow lord");
+// alert("worning to do !");
+// alert("lets play");
+// alert("play safe!");
+// alert("hi hi hi by by by")
 
 
 let heading=document.getElementById("maintitle");
@@ -403,3 +403,36 @@ setTimeout(() => {
   clearTimeout(timeoutId);
   console.log(`Timeout ID ${timeoutId} has been cleared! The message will not appear.`);
 }, 2000);
+
+
+
+
+document.getElementById("outer").addEventListener("click",()=>{
+    alert('outer div capturing');
+},true);
+document.getElementById("inner").addEventListener("click",()=>{
+    alert('inner div ');
+},true);
+document.getElementById("btn").addEventListener("click",()=>{
+    alert('button clicked');
+});
+
+
+
+
+// document.getElementById("outer").addEventListener("click",()=>{
+//     alert('outer div capturing');
+// });
+// document.getElementById("inner").addEventListener("click",()=>{
+//     alert('inner div ');
+// });
+// document.getElementById("btn").addEventListener("click",()=>{
+//     alert('button clicked');
+// });
+
+
+
+// document.getElementById("my form").addEventListener("sumbit",function(e){
+//     alert("ssumbited form it");
+// })
+// ;
