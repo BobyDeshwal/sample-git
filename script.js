@@ -260,6 +260,8 @@
 
 alert("hellow lord");
 alert("worning to do !");
+alert("lets play");
+alert("play safe!");
 
 
 
