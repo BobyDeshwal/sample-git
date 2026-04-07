@@ -341,10 +341,10 @@ form.addEventListener("sumbit",function(event){
 })
 
 
-const keyte=document.getElementById("key-input");
-keytype.addEventListener("keydown",(Event)=>{
-    console.log('key presed:${Event.key}');
-})
+// const keyte=document.getElementById("key-input");
+// keytype.addEventListener("keydown",(Event)=>{
+//     console.log('key presed:${Event.key}');
+// })
 
 
 
@@ -385,3 +385,18 @@ const countdownInterval = setInterval(() => {
   }
 }, 1000); // Run every 1 second
 
+
+console.log("Scheduling a message for 5 seconds from now...");
+
+// Schedule the message and store its ID
+const timeoutId = setTimeout(() => {
+  console.log("This message should not appear.");
+}, 5000);
+
+console.log(`Timeout has been scheduled with ID: ${timeoutId}`);
+
+// After 2 seconds, cancel the first timeout
+setTimeout(() => {
+  clearTimeout(timeoutId);
+  console.log(`Timeout ID ${timeoutId} has been cleared! The message will not appear.`);
+}, 2000);
