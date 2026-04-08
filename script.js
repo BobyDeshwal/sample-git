@@ -432,7 +432,7 @@ document.getElementById("bt").addEventListener("click",()=>{
 
 
 
-// document.getElementById("my form").addEventListener("sumbit",function(e){
-//     alert("ssumbited form it");
-// })
-// ;
+document.getElementById("my form").addEventListener("sumbit",function(e){
+    alert("ssumbited form it");
+})
+;
