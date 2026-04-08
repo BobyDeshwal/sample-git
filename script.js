@@ -413,7 +413,7 @@ document.getElementById("outer").addEventListener("click",()=>{
 document.getElementById("inner").addEventListener("click",()=>{
     alert('inner div ');
 },true);
-document.getElementById("btn").addEventListener("click",()=>{
+document.getElementById("button").addEventListener("click",()=>{
     alert('button clicked');
 });
 
@@ -426,7 +426,7 @@ document.getElementById("btn").addEventListener("click",()=>{
 // document.getElementById("inner").addEventListener("click",()=>{
 //     alert('inner div ');
 // });
-// document.getElementById("btn").addEventListener("click",()=>{
+// document.getElementById("bt").addEventListener("click",()=>{
 //     alert('button clicked');
 // });
 
