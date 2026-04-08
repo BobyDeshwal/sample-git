@@ -346,10 +346,10 @@ keytype.addEventListener("keydown",(Event)=>{
 // })
 
 
-// const keyte=document.getElementById("key-input");
-// keytype.addEventListener("keydown",(Event)=>{
-//     console.log('key presed:${Event.key}');
-// })
+const keyte=document.getElementById("key-input");
+keytype.addEventListener("keydown",(Event)=>{
+    console.log('key presed:${Event.key}');
+})
 
 
 
