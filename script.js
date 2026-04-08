@@ -420,15 +420,15 @@ document.getElementById("button").addEventListener("click",()=>{
 
 
 
-// document.getElementById("outer").addEventListener("click",()=>{
-//     alert('outer div capturing');
-// });
-// document.getElementById("inner").addEventListener("click",()=>{
-//     alert('inner div ');
-// });
-// document.getElementById("bt").addEventListener("click",()=>{
-//     alert('button clicked');
-// });
+document.getElementById("outer").addEventListener("click",()=>{
+    alert('outer div capturing');
+});
+document.getElementById("inner").addEventListener("click",()=>{
+    alert('inner div ');
+});
+document.getElementById("bt").addEventListener("click",()=>{
+    alert('button clicked');
+});
 
 
 
