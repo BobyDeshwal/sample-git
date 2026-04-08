@@ -263,6 +263,8 @@ alert("worning to do !");
 alert("lets play");
 alert("play safe!");
 alert("hi hi hi by by by")
+alert("play duviug!");
+alert("hi viboboo by")
 
 
 let heading=document.getElementById("maintitle");
