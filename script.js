@@ -451,5 +451,13 @@ document.getElementById("bt").addEventListener("click",()=>{
 
 
 
+let a=10;
+var b=20;
+
+console.log(window.a);
+console.log(window.b)
+
+
+
 
 
