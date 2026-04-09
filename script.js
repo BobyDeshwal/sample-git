@@ -463,4 +463,6 @@ function greet(){
     console.log(message);
 }
 
+greet();
+console.log(message);
 
