@@ -453,10 +453,10 @@ document.getElementById("bt").addEventListener("click",()=>{
 
 let a=10;
 var b=20;
-
+const c=0;
 console.log(window.a);
-console.log(window.b)
-
+console.log(window.b);
+console.log(window.c);
 
 function greet(){
     var message="hellow user";
