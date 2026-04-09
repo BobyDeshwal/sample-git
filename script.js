@@ -458,6 +458,9 @@ console.log(window.a);
 console.log(window.b)
 
 
-
+function greet(){
+    var message="hellow user";
+    console.log(message);
+}
 
 
