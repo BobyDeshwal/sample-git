@@ -439,6 +439,15 @@ document.getElementById("my form").addEventListener("sumbit",function(e){
 ;
 
 
+document.getElementById("outer").addEventListener("click",()=>{
+    alert('outer div capturing');
+});
+document.getElementById("inner").addEventListener("click",()=>{
+    alert('inner div ');
+});
+document.getElementById("bt").addEventListener("click",()=>{
+    alert('button clicked');
+});
 
 
 
