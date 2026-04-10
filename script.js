@@ -471,3 +471,6 @@ console.log(window.n);
 
 var h=20;
 console.log(window.h);
+
+let j=10;
+console.log(window.j);
