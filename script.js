@@ -468,3 +468,6 @@ console.log(message);
 
 let n=10;
 console.log(window.n);
+
+var h=20;
+console.log(window.h);
