@@ -466,3 +466,5 @@ function greet(){
 greet();
 console.log(message);
 
+let n=10;
+console.log(window.n);
