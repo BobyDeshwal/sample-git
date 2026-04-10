@@ -482,3 +482,6 @@ console.log(window.k);
 
 let u=10;
 console.log(window.u);
+
+let y=10;
+console.log(window.y);
