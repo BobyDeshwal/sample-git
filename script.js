@@ -258,13 +258,13 @@
 // }
 
 
-alert("hellow lord");
-alert("worning to do !");
-alert("lets play");
-alert("play safe!");
-alert("hi hi hi by by by")
-alert("play duviug!");
-alert("hi viboboo by")
+// alert("hellow lord");
+// alert("worning to do !");
+// alert("lets play");
+// alert("play safe!");
+// alert("hi hi hi by by by")
+// alert("play duviug!");
+// alert("hi viboboo by")
 
 
 let heading=document.getElementById("maintitle");
@@ -433,10 +433,13 @@ document.getElementById("button").addEventListener("click",()=>{
 
 
 
-document.getElementById("my form").addEventListener("sumbit",function(e){
-    alert("sumbited form it");
-})
-;
+const Form=document.getElementById("myform");
+
+Form.addEventListener('submit',function(event){
+    event.preventDefault();
+    alert("form submitted");
+});
+
 
 
 document.getElementById("outer").addEventListener("click",()=>{
@@ -464,24 +467,27 @@ function greet(){
 }
 
 greet();
-console.log(message);
+// console.log(message);  //problem ha 
 
-let n=10;
-console.log(window.n);
+// let n=10;
+// console.log(window.n);
 
-var h=20;
-console.log(window.h);
+// var h=20;
+// console.log(window.h);
 
-let j=10;
-console.log(window.j);
-
-
-let k=10;
-console.log(window.k);
+// let j=10;
+// console.log(window.j);
 
 
-let u=10;
-console.log(window.u);
+// let k=10;
+// console.log(window.k);
 
-let y=10;
-console.log(window.y);
+
+// let u=10;
+// console.log(window.u);
+
+// let y=10;
+// console.log(window.y);
+
+
+
