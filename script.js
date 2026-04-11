@@ -491,3 +491,25 @@ greet();
 
 
 
+function main(){
+    console.log("main start");
+    helper();
+    console.log("main end");
+}
+
+function helper(){
+    console.log("helper running");
+}
+
+main();
+
+
+
+let total=100;
+function calculate() {
+    let total;
+    console.log(total);
+    total=50;
+    console.log(total);
+}
+calculate();
