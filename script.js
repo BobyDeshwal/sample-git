@@ -530,3 +530,9 @@ console.log(window.j);
 
 let y=10;
 console.log(window.y);
+
+
+
+
+var h=20;
+console.log(window.h);
