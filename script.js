@@ -346,12 +346,6 @@ keytype.addEventListener("keydown",(Event)=>{
 // })
 
 
-const keyte=document.getElementById("key-input");
-keytype.addEventListener("keydown",(Event)=>{
-    console.log('key presed:${Event.key}');
-})
-
-
 
 console.log("firstmessage");
 setTimeout(()=>{
@@ -513,3 +507,15 @@ function calculate() {
     console.log(total);
 }
 calculate();
+
+
+let tot=100;
+function calculate() {
+    let total;
+    console.log(tot);
+    total=50;
+    console.log(tot);
+}
+calculate();
+
+
