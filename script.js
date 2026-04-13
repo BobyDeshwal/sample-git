@@ -521,3 +521,6 @@ calculate();
 
 let q=10;
 console.log(window.q);
+
+var r=20;
+console.log(window.r);
