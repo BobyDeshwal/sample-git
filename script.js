@@ -519,20 +519,3 @@ function calculate() {
 calculate();
 
 
-let k=10;
-console.log(window.k);
-
-
- let j=10;
-console.log(window.j);
-
-
-
-let y=10;
-console.log(window.y);
-
-
-
-
-var h=20;
-console.log(window.h);
