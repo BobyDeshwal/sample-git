@@ -519,3 +519,5 @@ function calculate() {
 calculate();
 
 
+let q=10;
+console.log(window.q);
