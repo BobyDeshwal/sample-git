@@ -527,3 +527,6 @@ console.log(window.r);
 
 var n=20;
 console.log(window.n);
+
+var j=20;
+console.log(window.j);
