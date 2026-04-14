@@ -518,3 +518,6 @@ function calculate() {
 }
 calculate();
 
+
+let y=10;
+console.log(window.y);
