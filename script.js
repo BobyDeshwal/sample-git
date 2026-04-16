@@ -525,3 +525,8 @@ console.log(window.n);
 
 let k=10;
 console.log(window.k);
+
+
+
+let y=10;
+console.log(window.y);
