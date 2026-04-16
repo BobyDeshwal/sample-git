@@ -530,3 +530,7 @@ console.log(window.k);
 
 let y=10;
 console.log(window.y);
+
+
+let u=10;
+console.log(window.u);
