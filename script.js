@@ -521,3 +521,7 @@ calculate();
 
 let n=10;
 console.log(window.n);
+
+
+let k=10;
+console.log(window.k);
