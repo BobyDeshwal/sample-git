@@ -519,18 +519,18 @@ function calculate() {
 calculate();
 
 
-let n=10;
-console.log(window.n);
+// let n=10;
+// console.log(window.n);
 
 
-let k=10;
-console.log(window.k);
+// let k=10;
+// console.log(window.k);
 
 
 
-let y=10;
-console.log(window.y);
+// let y=10;
+// console.log(window.y);
 
 
-let u=10;
-console.log(window.u);
+// let u=10;
+// console.log(window.u);
