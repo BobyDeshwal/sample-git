@@ -463,8 +463,8 @@ function greet(){
 greet();
 // console.log(message);  //problem ha 
 
-// let n=10;
-// console.log(window.n);
+let n=10;
+console.log(window.n);
 
 var h=20;
 console.log(window.h);
