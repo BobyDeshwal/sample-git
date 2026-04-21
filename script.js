@@ -499,14 +499,14 @@ main();
 
 
 
-// let total=100;
-// function calculate() {
-//     let total;
-//     console.log(total);
-//     total=50;
-//     console.log(total);
-// }
-// calculate();
+let total=100;
+function calculate() {
+    let total;
+    console.log(total);
+    total=50;
+    console.log(total);
+}
+calculate();
 
 
 // let Total=100;
