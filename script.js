@@ -499,23 +499,23 @@ main();
 
 
 
-let total=100;
-function calculate() {
-    let total;
-    console.log(total);
-    total=50;
-    console.log(total);
-}
-calculate();
+// let total=100;
+// function calculate() {
+//     let total;
+//     console.log(total);
+//     total=50;
+//     console.log(total);
+// }
+// calculate();
 
 
-let tot=100;
-function calculate() {
-    let total;
-    console.log(tot);
-    total=50;
-    console.log(tot);
-}
-calculate();
+// let Total=100;
+// function calculate() {
+//     let total;
+//     console.log(Total);
+//     total=50;
+//     console.log(Total);
+// }
+// calculate();
 
 
