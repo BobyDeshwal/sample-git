@@ -480,8 +480,8 @@ console.log(window.n);
 // let u=10;
 // console.log(window.u);
 
-// let y=10;
-// console.log(window.y);
+let y=10;
+console.log(window.y);
 
 
 
