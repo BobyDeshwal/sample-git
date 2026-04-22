@@ -473,8 +473,8 @@ console.log(window.n);
 // console.log(window.j);
 
 
-// let k=10;
-// console.log(window.k);
+let k=10;
+console.log(window.k);
 
 
 let u=10;
