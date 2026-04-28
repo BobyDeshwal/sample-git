@@ -529,7 +529,7 @@ calculate();
 // console.log(window.s);
 
 
-alert("play safe!");
-alert("hi hi hi by by by")
-alert("play duviug!");
-alert("hi viboboo by")
+alert("biejnhtibv");
+alert("bhjcijo")
+alert("hbvdnl");
+alert("bhjvino")
