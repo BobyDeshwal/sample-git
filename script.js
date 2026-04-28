@@ -527,3 +527,9 @@ calculate();
 
 // let s=10;
 // console.log(window.s);
+
+
+alert("play safe!");
+alert("hi hi hi by by by")
+alert("play duviug!");
+alert("hi viboboo by")
