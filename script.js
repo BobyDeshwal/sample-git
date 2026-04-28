@@ -525,5 +525,5 @@ console.log(window.l);
 let f=10;
 console.log(window.f);
 
-let s=10;
-console.log(window.s);
+// let s=10;
+// console.log(window.s);
