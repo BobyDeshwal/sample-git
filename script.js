@@ -518,3 +518,12 @@ calculate();
 // calculate();
 
 
+
+let l=10;
+console.log(window.l);
+
+let f=10;
+console.log(window.f);
+
+let s=10;
+console.log(window.s);
