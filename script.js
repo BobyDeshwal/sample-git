@@ -463,24 +463,24 @@ function greet(){
 greet();
 // console.log(message);  //problem ha 
 
-// let n=10;
-// console.log(window.n);
+let n=10;
+console.log(window.n);
 
-// var h=20;
-// console.log(window.h);
+var h=20;
+console.log(window.h);
 
-// let j=10;
-// console.log(window.j);
+let j=10;
+console.log(window.j);
 
 
-// let k=10;
-// console.log(window.k);
+let k=10;
+console.log(window.k);
 
-// let u=10;
-// console.log(window.u);
+let u=10;
+console.log(window.u);
 
-// let y=10;
-// console.log(window.y);
+let y=10;
+console.log(window.y);
 
 
 
