@@ -529,7 +529,7 @@ calculate();
 // console.log(window.s);
 
 
-alert("biejnhtibv");
-alert("bhjcijo")
-alert("hbvdnl");
-alert("bhjvino")
+// alert("biejnhtibv");
+// alert("bhjcijo")
+// alert("hbvdnl");
+// alert("bhjvino")
