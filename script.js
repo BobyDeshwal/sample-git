@@ -280,8 +280,8 @@ console.log(card.textContent);
 
 
 
-let diver=document.querySelectorAll("dive");
-console.log(diver.textContent);
+let diver=document.querySelectorAll(".dive");
+console.log(diver[0].textContent);
 
 
 document.getElementById("why").innerText="how are you";
@@ -531,3 +531,8 @@ calculate();
 setTimeout(()=>{
     console.log("This is a message from the timeout function.");
 },2000);
+
+
+setTimeout(()=>{
+    console.log("cgh knb hjg.");
+},3000);
