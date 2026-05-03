@@ -519,14 +519,14 @@ calculate();
 
 
 
-// let l=10;
-// console.log(window.l);
+let l=10;
+console.log(window.l);
 
-// let f=10;
-// console.log(window.f);
+let f=10;
+console.log(window.f);
 
-// let s=10;
-// console.log(window.s);
+let s=10;
+console.log(window.s);
 
 // setTimeout(()=>{
 //     console.log("This is a message from the timeout function.");
