@@ -538,9 +538,9 @@ setTimeout(()=>{
 },3000);
 
 
-// setTimeout(()=>{
-//     console.log("ght ju de r.");
-// },3000);
+setTimeout(()=>{
+    console.log("ght ju de r.");
+},3000);
 
 
 // setTimeout(()=>{
