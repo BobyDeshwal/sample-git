@@ -528,9 +528,9 @@ console.log(window.f);
 let s=10;
 console.log(window.s);
 
-// setTimeout(()=>{
-//     console.log("This is a message from the timeout function.");
-// },2000);
+setTimeout(()=>{
+    console.log("This is a message from the timeout function.");
+},2000);
 
 
 // setTimeout(()=>{
