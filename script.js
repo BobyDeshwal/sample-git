@@ -533,9 +533,9 @@ setTimeout(()=>{
 },2000);
 
 
-// setTimeout(()=>{
-//     console.log("cgh knb hjg.");
-// },3000);
+setTimeout(()=>{
+    console.log("cgh knb hjg.");
+},3000);
 
 
 // setTimeout(()=>{
