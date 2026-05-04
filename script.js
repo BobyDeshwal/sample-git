@@ -519,39 +519,39 @@ calculate();
 
 
 
-let l=10;
-console.log(window.l);
+// let l=10;
+// console.log(window.l);
 
-let f=10;
-console.log(window.f);
+// let f=10;
+// console.log(window.f);
 
-let s=10;
-console.log(window.s);
+// let s=10;
+// console.log(window.s);
 
-setTimeout(()=>{
-    console.log("This is a message from the timeout function.");
-},2000);
-
-
-setTimeout(()=>{
-    console.log("cgh knb hjg.");
-},3000);
+// setTimeout(()=>{
+//     console.log("This is a message from the timeout function.");
+// },2000);
 
 
-setTimeout(()=>{
-    console.log("ght ju de r.");
-},3000);
+// setTimeout(()=>{
+//     console.log("cgh knb hjg.");
+// },3000);
 
 
-setTimeout(()=>{
-    console.log("hi i im .");
-},3000);
+// setTimeout(()=>{
+//     console.log("ght ju de r.");
+// },3000);
 
 
-setTimeout(()=>{
-    console.log("giv me this .");
-},3000);
+// setTimeout(()=>{
+//     console.log("hi i im .");
+// },3000);
 
-setTimeout(()=>{
-    console.log(" this id .");
-},3000);
+
+// setTimeout(()=>{
+//     console.log("giv me this .");
+// },3000);
+
+// setTimeout(()=>{
+//     console.log(" this id .");
+// },3000);
