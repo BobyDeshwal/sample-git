@@ -555,3 +555,13 @@ calculate();
 // setTimeout(()=>{
 //     console.log(" this id .");
 // },3000);
+
+
+
+setTimeout(()=>{
+    console.log("giv me this .");
+},3000);
+
+setTimeout(()=>{
+    console.log(" this id .");
+},3000);
