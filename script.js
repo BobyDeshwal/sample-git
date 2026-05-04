@@ -543,9 +543,9 @@ calculate();
 // },3000);
 
 
-// setTimeout(()=>{
-//     console.log("hi i im .");
-// },3000);
+setTimeout(()=>{
+    console.log("hi i im .");
+},3000);
 
 
 setTimeout(()=>{
